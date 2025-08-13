@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
     box-sizing: border-box;
 }
 
@@ -8,10 +11,10 @@ body {
 }
 
 .content {
-    width: 100vw;
-    height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #FFF;
+    height: 100vh;
+    width: 100vw;
 }
 
 @media screen and (min-width: 992px) {
@@ -22,3 +25,8 @@ body {
         border-radius: 1rem;
     }
 }
+
+.content h1 {
+    margin: 0;
+}
+
